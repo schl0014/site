@@ -46,3 +46,17 @@
     clear: both;
     position:fixed;
   }
+  a {
+    color:#3FE2FF;
+
+  }
+
+ul{
+  color: #3FE2FF;
+}
+  .black{
+    color:black;
+  }
+  .white{
+    color:white;
+  }
