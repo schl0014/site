@@ -57,12 +57,12 @@
   margin: auto;
 }
 
-/* Hide the images by default */
+/* verberg de afbeelding bij default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
+/* volgende en terug knop */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -78,7 +78,7 @@
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* plaat van de knop voor rechts */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -109,7 +109,7 @@
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* de indactoren */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -125,7 +125,7 @@
   background-color: #717171;
 }
 
-/* Fading animation */
+/* vervagende animatie */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -147,15 +147,18 @@
   color:#3FE2FF;
 
 }
+/* als de link wordt geactiveerd dan zie bij een foto dan veranderd de kleur */
 .b:visited{
   color:#1f1f1f;
 }
 .c:link{
   color:#1f1f1f;
 }
+/* kleur voor lijst */
 ul{
   color: #3FE2FF;
 }
+/* footer */
 .footer {
   position: fixed;
   left: 0;
@@ -190,7 +193,7 @@ img {
   margin: auto;
 }
 
-/* Next & previous buttons */
+/* volgende en terug knop */
 .prev,
 .next {
   cursor: pointer;
@@ -211,6 +214,7 @@ img {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+
 }
 
 /* On hover, add a black background color with a little bit see-through */
