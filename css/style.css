@@ -85,3 +85,13 @@ ul{
   p {
     font-size: 25px;
   }
+  .block-faq{
+    border-width: 18px;
+padding: 30px 20px 20px 20px;
+         border-color: black;
+     background-color: black;
+     border-radius: 20%;
+     text-align: center;
+     
+    
+  }
