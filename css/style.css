@@ -89,9 +89,11 @@ ul{
     border-width: 18px;
 padding: 30px 20px 20px 20px;
          border-color:rgb(7, 65, 65);
-         background-color: rgb(7, 65, 65);
-     border-radius: 20%;
+         background-color:rgb(7, 65, 65) ;
+       
+     border-radius: 15%;
      text-align: center;
+    align-items: center;
      
     
   }
