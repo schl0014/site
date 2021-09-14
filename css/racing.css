@@ -1,54 +1,53 @@
-.center{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width: auto ;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
 /* The navigation bar */
 .navbar {
-    overflow: hidden;
-    background-color: #1f1f1f
-    ;
-    position: fixed;
-    top: 0; 
-    width: 100%;
-  }
-  
-  /* Link in de navigatie */
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px 17px;
-    text-decoration: none;
-  }
-  
-  
-  .navbar a:hover {
-    background: #0d163f;
-    color: red;
-  }
-  
-  
-  .main {
-    margin-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .column {
-    float: left;
-    width: 33.33%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    position:fixed;
-  }
-  * {box-sizing:border-box}
+  overflow: hidden;
+  background-color: #1f1f1f;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Link in de navigatie */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #0d163f;
+  color: red;
+}
+
+.main {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  position: fixed;
+}
+* {
+  box-sizing: border-box;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -63,7 +62,8 @@
 }
 
 /* volgende en terug knop */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -85,8 +85,9 @@
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -121,7 +122,8 @@
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -134,29 +136,36 @@
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.a{
-  color:#3FE2FF;
-
+.a {
+  color: #3fe2ff;
 }
 /* als de link wordt geactiveerd dan zie bij een foto dan veranderd de kleur */
-.b:visited{
-  color:#1f1f1f;
+.b:visited {
+  color: #1f1f1f;
 }
-.c:link{
-  color:#1f1f1f;
+.c:link {
+  color: #1f1f1f;
 }
 /* kleur voor lijst */
-ul{
-  color: #3FE2FF;
+ul {
+  color: #3fe2ff;
 }
 /* footer */
 .footer {
@@ -170,16 +179,16 @@ ul{
 }
 
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
   font-family: Verdana, sans-serif;
-  margin: 0
+  margin: 0;
 }
 
 .mySlides {
-  display: none
+  display: none;
 }
 
 img {
@@ -214,7 +223,6 @@ img {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -270,31 +278,30 @@ img {
 
 @-webkit-keyframes fade {
   from {
-    opacity: .4
+    opacity: 0.4;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
 @keyframes fade {
   from {
-    opacity: .4
+    opacity: 0.4;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
 /* kleiner maken van het scherms */
 @media only screen and (max-width: 300px) {
-
   .prev,
   .next,
   .text {
-    font-size: 11px
+    font-size: 11px;
   }
 }
 
