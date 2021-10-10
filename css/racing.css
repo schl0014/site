@@ -1,3 +1,4 @@
+/* set something in the middle */
 .center {
   display: block;
   margin-left: auto;
@@ -22,17 +23,19 @@
   padding: 15px 17px;
   text-decoration: none;
 }
-
+/* navigation hover */
 .navbar a:hover {
   background: #0d163f;
   color: red;
 }
+/* set the borders of main */
 
 .main {
   margin-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
 }
+
 .column {
   float: left;
   width: 33.33%;
@@ -56,12 +59,12 @@
   margin: auto;
 }
 
-/* verberg de afbeelding bij default */
+/* hide image by default*/
 .mySlides {
   display: none;
 }
 
-/* volgende en terug knop */
+/*the previous and next button */
 .prev,
 .next {
   cursor: pointer;
@@ -78,7 +81,7 @@
   user-select: none;
 }
 
-/* plaat van de knop voor rechts */
+/* place of the button right*/
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -110,7 +113,7 @@
   top: 0;
 }
 
-/* de indactoren */
+/* the dots */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -127,7 +130,7 @@
   background-color: #717171;
 }
 
-/* vervagende animatie */
+/* changing animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -152,18 +155,18 @@
     opacity: 1;
   }
 }
-
+/*  */
 .a {
   color: #3fe2ff;
 }
-/* als de link wordt geactiveerd dan zie bij een foto dan veranderd de kleur */
+/* if the link is activated the color changed */
 .b:visited {
   color: #1f1f1f;
 }
 .c:link {
   color: #1f1f1f;
 }
-/* kleur voor lijst */
+/* color for the list */
 ul {
   color: #3fe2ff;
 }
@@ -177,11 +180,11 @@ ul {
   color: white;
   text-align: center;
 }
-
+/* box sizing */
 * {
   box-sizing: border-box;
 }
-
+/* text type */
 body {
   font-family: Verdana, sans-serif;
   margin: 0;
@@ -190,7 +193,7 @@ body {
 .mySlides {
   display: none;
 }
-
+/* image aligment */
 img {
   vertical-align: middle;
 }
@@ -202,7 +205,7 @@ img {
   margin: auto;
 }
 
-/* volgende en terug knop */
+/* next and previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -296,7 +299,7 @@ img {
   }
 }
 
-/* kleiner maken van het scherms */
+/* desizing of the screens */
 @media only screen and (max-width: 300px) {
   .prev,
   .next,
@@ -304,7 +307,7 @@ img {
     font-size: 11px;
   }
 }
-
+/* text places */
 h1 {
   text-align: center;
   font-size: 40px;

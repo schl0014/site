@@ -1,3 +1,4 @@
+/* place of th center */
 .center {
     display: block;
     margin-left: auto;
@@ -17,7 +18,7 @@
 }
 
 
-/* Link in de navigatie */
+/* Link in the navigation */
 
 .navbar a{
     float: left;
@@ -32,7 +33,7 @@
     background: #0d163f;
     color: red;
 }
-
+/* place the main */
 .main {
     margin-top: 30px;
     padding-left: 20px;
@@ -53,11 +54,11 @@
     clear: both;
     position: fixed;
 }
-
+/* color a */
 a {
     color: #3fe2ff;
 }
-
+/* color ul */
 ul {
     color: #3fe2ff;
 }
@@ -69,7 +70,7 @@ ul {
 .white {
     color: white;
 }
-
+/* the footer */
 .footer {
     position: fixed;
     left: 0;
@@ -79,7 +80,7 @@ ul {
     color: white;
     text-align: center;
 }
-
+/* text places */
 h1 {
     text-align: center;
     font-size: 40px;
@@ -93,7 +94,7 @@ h2 {
 p {
     font-size: 25px;
 }
-
+/* block faq info */
 .block-faq {
     border-width: 18px;
     padding: 30px 20px 20px 20px;
